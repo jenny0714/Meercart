@@ -1,4 +1,4 @@
 # Meercart
 use dotnet core and sqlite to create shoppingcart
 
-##hello##
+##jenny shopping cart##
