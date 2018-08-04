@@ -17,6 +17,6 @@
 ### Cart:
   - Id
   - Master Member
-  - Shopping List (contain name of product, number of product, price of product, owner of product, time of product)
+  - Shopping List (contain name of product, number of product, price of product, owner of product, time of product, total price of product)
   
 
