@@ -10,7 +10,7 @@ namespace Meercart.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=blogging.db");
+            optionsBuilder.UseSqlite("Data Source=MeercartDBcontext.db");
         }
     }
 
@@ -26,6 +26,8 @@ namespace Meercart.Models
     {
         public int ProductId { get; set; }
         public string Name { get; set; }
+        public int Price { get; set; }
+
 
         public List<Product> Posts { get; set; }
     }
