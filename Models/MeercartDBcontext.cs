@@ -1,6 +1,7 @@
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Meercart.Models
 {
@@ -36,8 +37,7 @@ namespace Meercart.Models
         public int CartId { get; set; }
         public string MasterMember { get; set; }
         public int ShoppingList { get; set; }
-        public List<Cart> ShoppingItem { get; set; }
-        
+        public List<ShoppingItem> ShoppingItem { get; set; } 
     }
     public class ShoppingItem
     {
@@ -46,16 +46,14 @@ namespace Meercart.Models
         public int PriceProduct { get; set; }
         public string OwnerProduct { get; set; }
         public DateTime ShoppingDate { get; set; }
-
     }
     public class Store
     {
         public int StoreId { get; set; }
         public string StoreName { get; set; }
-        public int StorePhone { get; set; }
+        public string StorePhone { get; set; }
         public string StoreMemo { get; set; }
         public string StoreLocation { get; set; }
-        public string StoreMiniCharge { get; set; }
-
+        public int StoreMiniCharge { get; set; }
     }
 }
