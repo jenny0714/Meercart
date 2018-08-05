@@ -40,11 +40,12 @@ namespace Meercart.Models
         public List<ShoppingItem> ShoppingItem { get; set; } 
     }
     public class ShoppingItem
-    {
-        public string NameProduct { get; set; }
-        public int NumberProduct { get; set; }
-        public int PriceProduct { get; set; }
-        public string OwnerProduct { get; set; }
+    { 
+        public string ShoppingName { get; set; }
+        public int ShoppingItemId { get; set; }
+        public int ShoppingNumber { get; set; }
+        public int ShoppingPrice { get; set; }
+        public string ShoppingOwner { get; set; }
         public DateTime ShoppingDate { get; set; }
     }
     public class Store
