@@ -9,7 +9,6 @@
 ### Member:
   - Id
   - Name
-  - Password
 
 ### Product:
   - Id
@@ -28,6 +27,6 @@
   - phone
   - Memo
   - Location
-  - Minimum Charge 
+  - Minimum Charge
   
 
